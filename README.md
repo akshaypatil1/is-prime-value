@@ -6,14 +6,14 @@ small package to check if given number is a prime number.
 ## Installation
 
 ```
-npm install is-prime-number
+npm install is-prime-value
 ```
 ## Example
 
 Following is basic example.
 
 ```
-    const isPrime = require('is-prime-number');
+    const isPrime = require('is-prime-value');
     console.log(isPrime(47));
     console.log(isPrime(1));
     console.log(isPrime(100));
