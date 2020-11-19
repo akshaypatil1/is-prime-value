@@ -1,0 +1,32 @@
+{
+  "name": "is-prime",
+  "version": "1.0.0",
+  "description": "small package to check if given number is a prime number.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaypatil1/isPrimeNumber.git"
+  },
+  "keywords": [
+    "prime",
+    "number",
+    "maths",
+    "isPrime",
+    "isPrimeNumber"
+  ],
+  "author": "APatil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaypatil1/isPrimeNumber/issues"
+  },
+  "homepage": "https://github.com/akshaypatil1/isPrimeNumber#readme",
+  "devDependencies": {
+    "mocha": "^8.2.1"
+  },
+  "dependencies": {
+    "is-number": "^7.0.0"
+  }
+}
