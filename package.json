@@ -1,10 +1,13 @@
 {
   "name": "is-prime-value",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "small package to check if given number is a prime number.",
-  "main": "index.js",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
   "scripts": {
-    "test": "mocha"
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "npm run build && mocha"
   },
   "repository": {
     "type": "git",
@@ -24,7 +27,11 @@
   },
   "homepage": "https://github.com/akshaypatil1/is-prime-value#readme",
   "devDependencies": {
-    "mocha": "^8.2.1"
+    "mocha": "^8.2.1",
+    "typescript": "^5.0.0",
+    "ts-node": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "@types/mocha": "^10.0.0"
   },
   "dependencies": {
     "is-number": "^7.0.0"
